@@ -7,6 +7,10 @@
 //三師爸 (但文章好像刪掉了）
 //https://www.facebook.com/三師爸Sense-Bar-108066560626981
 
+//TODO: 可以利用 Connected Component,讓mousePressed時，看是按到誰，將它的色彩變成2，表示淡淡的色彩，之後才能還回去放。
+//接下來在 cursor 的地方，要有一個半透明的piece可跟著移動。
+//如果在不能放的地方，就會做旋轉/翻面的操作。也可以有個操作區，方便做做操作。
+//再開一個陣列，負責放要放的piece 的型狀，並做適當的旋轉等。
 
 color c[]={#47B454, #D0F5D4, #E8F5EA};
 void setup(){
